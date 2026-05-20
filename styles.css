@@ -49,6 +49,7 @@ main {
     transition: all 0.3s ease;
     position: relative;
     padding: 0.5rem 0;
+    cursor: pointer;
 }
 .link-zk a::after {
     content: '';
@@ -77,6 +78,7 @@ main {
     transition: all 0.3s ease;
     font-family: 'Playfair Display', serif;
     font-size: 1rem;
+    margin-bottom: 120px;
 }
 .button-agenda:hover {
     transform: translateY(-2px);
@@ -193,15 +195,7 @@ main {
     position: relative;
     overflow: hidden;
 }
-.cantainer-1::before {
-    content: '';
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.2) 0%, transparent 70%);
-    border-radius: 50%;
-    animation: pulse 3s ease-in-out infinite;
-}
+
 @keyframes pulse {
     0%, 100% {
         transform: scale(1);
@@ -220,6 +214,7 @@ main {
     z-index: 1;
     text-shadow: 0 0 30px rgba(212, 175, 55, 0.5);
     animation: slideIn 1s ease-out;
+    animation: pulse 3s ease-in-out infinite;
 }
 @keyframes slideIn {
     from {
@@ -230,6 +225,12 @@ main {
         opacity: 1;
         transform: translateY(0);
     }
+}
+.img-fundo{
+    width: 100vw;
+    opacity: .06;
+    display:block;
+    position:absolute;
 }
 /* ===== CONTAINER 2 - SOBRE ===== */
 .container-2 {
