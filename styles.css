@@ -180,10 +180,10 @@ main {
     font-size: 2.5rem;
     text-align: center;
     padding: 3rem 2rem;
-    color: #d4af37;
-    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    
+    
     text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    font-style: italic;
+    
     letter-spacing: 1px;
 }
 /* ===== CONTAINER 1 - TITULO ANIMADO ===== */
@@ -192,8 +192,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2d2d2d 100%);
-    position: relative;
+    
     overflow: hidden;
 }
 
@@ -242,7 +241,7 @@ main {
 .container-2 {
     padding: 4rem 4rem;
     background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-    text-align: center;
+    position: relative;
 }
 .paragraf-1 {
     color: #d4af37;
